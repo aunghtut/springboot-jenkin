@@ -12,7 +12,6 @@ class SpringbootJenkinApplicationTests {
 	@Test
 	public void contextLoads() {
 		logger.info("test....");
-		logger.info("test case executing log second");
 	}
 
 }
