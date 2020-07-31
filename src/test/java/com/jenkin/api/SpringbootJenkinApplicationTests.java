@@ -10,9 +10,9 @@ class SpringbootJenkinApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger(SpringbootJenkinApplicationTests.class);
 
 	@Test
-	pubilc contextLoads() {
+	void contextLoads() {
 		logger.info("test....");
-		logger.info("test case executing log second...");
+		logger.info("test case executing log second");
 	}
 
 }
