@@ -7,9 +7,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class SpringbootJenkinApplicationTests {
+	public static Logger logger = LoggerFactory.getLogger(SpringbootJenkinApplicationTests.class);
 
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
 		logger.info("test....");
 		logger.info("test case executing log second");
 	}
